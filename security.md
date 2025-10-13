@@ -5,10 +5,10 @@ Ensure HIPAA compliance and secure handling of FHIR data throughout the system l
 
 
 ## 1. Authentication & Authorization
-- Uses **OAuth 2.0** with **SMART on FHIR** for secure, standards-based access.  
-- Tokens are short-lived, scope-limited, and transmitted only via **HTTPS**.  
-- Sessions use HTTP-only Secure cookies with CSRF protection.  
-- Supports client-level rate limiting and IP throttling.
+- Use **OAuth 2.0** with **SMART on FHIR** for secure, standards-based access.  
+- Tokens be short-lived, scope-limited, and transmitted only via **HTTPS**.  
+- Session use HTTP-only Secure cookies with CSRF protection.  
+- Support client-level rate limiting and IP throttling.
 
 
 ## 2. Data Privacy & Protection
@@ -19,18 +19,19 @@ Ensure HIPAA compliance and secure handling of FHIR data throughout the system l
 
 
 ## 3. Audit Logging
-- Logs every access, query, and FHIR resource action with timestamp, user ID, and scope.  
-- Logs are immutable, encrypted, and stored separately from app data.  
+- Log every access, query, and FHIR resource action with timestamp, user ID, and scope.  
+- Log are immutable, encrypted, and stored separately from app data.  
 - Automated alerts for unusual access patterns.
 
 
 ## 4. Role-Based Access Control (RBAC)
-- Enforces **Principle of Least Privilege (PoLP)**.  
-- Roles (e.g., *Clinician*, *Analyst*, *Admin*) define granular read/write scopes.  
-- Token scopes validated server-side; admin actions require MFA.
+- Enforce **Principle of Least Privilege (PoLP)**.  
+- Role (e.g., *Clinician*, *Analyst*, *Admin*) define granular read/write scopes.  
+- Token scopes validated server-side; admin actions requiring MFA.
 
 
 ## 5. Compliance
-- Aligns with **HIPAA Security & Privacy Rules**.  
+- Align with **HIPAA Security & Privacy Rules**.  
 - Regular vulnerability scans, audits, and HIPAA training.  
 - All team members and integrations comply via **Business Associate Agreements (BAAs)**.
+
