@@ -1,0 +1,17 @@
+{
+  "name": "fhir-nlp-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "react-chartjs-2": "5.x",
+    "chart.js": "4.x"
+  }
+}
+ 
